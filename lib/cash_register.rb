@@ -68,8 +68,7 @@ class CashRegister
         # @total = @transaction_amounts.join("").to_f 
         # @tota
     if @items.empty?
-      @transaction_amounts = 0.0 
-      @transaction_amounts
+      @total -= @transaction_amounts
     else 
       @total -= @transaction_amounts.pop
     end 
