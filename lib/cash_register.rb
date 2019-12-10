@@ -64,9 +64,6 @@ class CashRegister
   end 
   
   def void_last_transaction 
-        # @transaction_amounts.delete_at(-1)
-        # @total = @transaction_amounts.join("").to_f 
-        # @tota
     if @items.empty?
       @total = 0.0 
     else 
