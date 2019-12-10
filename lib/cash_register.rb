@@ -69,7 +69,7 @@ class CashRegister
     else 
       @total -= @transaction_amounts.pop
     end 
-      
+    @total   
   end 
   
 end 
